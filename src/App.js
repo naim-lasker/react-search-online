@@ -28,7 +28,7 @@ class App extends Component {
           {
             !imgLength ?
               <h3 className='text-center'>Search and submit to show any images!</h3> :
-              <div className='row'>
+              <div className=''>
                 <ImageList images={this.state.images} />
               </div>
           }
